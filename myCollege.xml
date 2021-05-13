@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="13.0.1" class="java.beans.XMLDecoder">
+ <object class="fileHandling.SerializationOfJavaObjectInXmlUsingXmlEncoder.College" id="College0">
+  <void class="fileHandling.SerializationOfJavaObjectInXmlUsingXmlEncoder.College" method="getField">
+   <string>studentList</string>
+   <void method="set">
+    <object idref="College0"/>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <object class="fileHandling.SerializationOfJavaObjectInXmlUsingXmlEncoder.Student">
+       <void property="name">
+        <string>Ankan Mukherjee</string>
+       </void>
+       <void property="rollNo">
+        <long>1828049</long>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="fileHandling.SerializationOfJavaObjectInXmlUsingXmlEncoder.Student">
+       <void property="name">
+        <string>Abhiskek Raj</string>
+       </void>
+       <void property="rollNo">
+        <long>1828043</long>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="fileHandling.SerializationOfJavaObjectInXmlUsingXmlEncoder.Student">
+       <void property="name">
+        <string>Anubhav Mishra</string>
+       </void>
+       <void property="rollNo">
+        <long>1828054</long>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
